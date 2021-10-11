@@ -9,6 +9,6 @@
 
 [ ] - Trocar "Pão" pela logo da padaria no rodapé
 
-[ ] - Diminuir o tamanho da fonte do nome da padaria no navbar
+[ ] - Diminuir o tamanho da fonte do nome da padaria no navba
 
 [ ] - 
