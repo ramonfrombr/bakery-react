@@ -1,0 +1,14 @@
+
+[ ] - Transformar o ícone do menu em um icone hamburger
+
+[ ] - Alterar a secao de produtos para que tenha mais produtos
+
+[ ] - Remover descricao dos produtos na secao de produtos
+
+[ ] - Alterar estilo mobile para que tenha pelo menos 2 produtos por linha
+
+[ ] - Trocar "Pão" pela logo da padaria no rodapé
+
+[ ] - Diminuir o tamanho da fonte do nome da padaria no navbar
+
+[ ] - 

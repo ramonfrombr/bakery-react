@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { EstiloGlobal } from './globalStyles';
+
+import Intro from './componentes/Intro';
+
+import Produtos from './componentes/Produtos';
+import {
+  produtos1 as produtos1,
+  produtos2 as produtos2
+} from './componentes/Produtos/dados';
+
+
+
+import Destaque from './componentes/Destaque';
+
+import Rodape from './componentes/Rodape';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Router>
+
+      <EstiloGlobal />
+
+      <Intro />
+      
+      <Produtos
+        cabecalho="Escolha seu produto"
+        produtos={produtos1}
+      />
+
+      <Destaque />
+
+      <Produtos
+        cabecalho="Escolha seu produto"
+        produtos={produtos2}
+      />
+
+      <Rodape />
+
+    </Router>
+
   );
 }
 
